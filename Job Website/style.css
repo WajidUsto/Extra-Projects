@@ -7,13 +7,13 @@ body{
   background-color: #ccc;
 }
 .container{
-  max-width: 900px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .apply_box{
   font-family: Verdana, Tahoma, sans-serif;
   background-color: white;
-  max-width: 900px;
+  max-width: 600px;
   padding: 20px;
   box-shadow: 3px 4px 5px slategray;
   margin-top: 50px;
@@ -24,3 +24,62 @@ body{
   color: #04175a;
   padding-left: 10px;
 }
+.form_container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,  minmax(200px, 1fr));
+  gap: 20px;
+}
+.form_control{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  margin-bottom: 30px;
+}
+input,textarea,select{
+  padding: 18px 5px;
+  border-radius: 8px;
+  font-size: 17px;
+  border: 2px solid #ccc;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+.apply_container{
+  display: flex;
+  justify-content: flex-end;
+}
+button{
+  border: transparent 5px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: 0.3s ease-in;
+  margin-top: 30px;
+}
+#upload{
+  border: 2px solid #ccc;
+}
+label{
+  padding-bottom: 10px;
+}
+button:hover{
+  background-color: #ccc;
+  color: black;
+  transition: 0.3s ease-out;
+}
+.textarea_control{
+  grid-column: 1 / span 2;
+}
+.textarea_control textarea{
+  width: 100%;
+}
+
+@media (max-width:459){
+  .textarea_control{
+    grid-column: 1 / span 1
+  }
+}
+
+
+
