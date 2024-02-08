@@ -11,11 +11,16 @@ body{
   margin: 0 auto;
 }
 .apply_box{
+  font-family: Verdana, Tahoma, sans-serif;
   background-color: white;
-  max-width: 600px;
+  max-width: 900px;
   padding: 20px;
+  box-shadow: 3px 4px 5px slategray;
+  margin-top: 50px;
+  border-radius: 20px;
 }
 .small_title{
   font-size: 20px;
-  color: 04175a;
+  color: #04175a;
+  padding-left: 10px;
 }

@@ -9,7 +9,34 @@
 <body>
   <div class="container">
     <div class="apply_box">
-      <h1>Job Application<span class="small_title">Web</span></h1>
+      <h1>Job Application<span class="small_title">(Web)</span></h1>
+      <form action="">
+        <div class="form_container">
+          <div class="form_control">
+        <label for="first_name">First name</label>
+        <input id="first_name" type="text" size="20" min="10" max="40" >
+      </div>
+          <div class="form_control">
+        <label for="last_name">Last name</label>
+        <input id="last_name" type="text" size="20" min="10" max="40">
+      </div>
+          <div class="form_control">
+        <label for="email">Email</label>
+        <input id="email" type="email" size="20" min="10" max="40">
+      </div>
+          <div class="form_control">
+        <label for="Job_role">Job Role</label>
+        <select>
+          <option value="">Select Job Role</option>
+          <option value="Frontend">Frontend Developer</option>
+          <option value="Backend">Backend Developer</option>
+          <option value="Full Stack Web Developer">Full Stack Web Developer</option>
+          <option value="UI-UX">UI-UX Designer</option>
+        </select>
+      </div>
+        
+      </div>
+      </form>
     </div>
   </div>
 </body>
