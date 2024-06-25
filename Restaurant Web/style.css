@@ -33,3 +33,7 @@ nav{
 .bar_icon{
     font-size: 25px;
 }
+.hero{
+    display: flex;
+    gap: 100px
+}
