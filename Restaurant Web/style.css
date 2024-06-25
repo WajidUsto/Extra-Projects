@@ -27,7 +27,7 @@ nav{
     align-items: center;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 .bar_icon{
@@ -35,5 +35,12 @@ nav{
 }
 .hero{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 100px
+    
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
 }
