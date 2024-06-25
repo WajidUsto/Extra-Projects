@@ -17,6 +17,8 @@ nav{
     top: 0;
     margin-bottom: 32px;
     background: white;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .navigation{
@@ -27,4 +29,7 @@ nav{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+.bar_icon{
+    font-size: 25px;
 }
