@@ -17,8 +17,7 @@ nav{
     top: 0;
     margin-bottom: 32px;
     background: white;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px 15px;
 }
 
 .navigation{
@@ -27,7 +26,7 @@ nav{
     align-items: center;
 }
 .container{
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .bar_icon{
@@ -37,10 +36,54 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px
-    
+    gap: 150px
 }
 .hero_content{
     display: flex;
     flex-direction: column;
+    gap: 15px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-self: flex-start;
+    font-size: 22px;
+}
+button:hover{
+    /* opacity: 0.8; */
+    transition: 0.2s ease-in;
+    color: white;
+}
+.tag{
+    background: #149f39;
+    padding: 5px 10px;
+    color: white;
+    align-self: flex-start;
+}
+.hero_content h1{
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: 550;
+}
+.explore_btn{
+    background: #149f39;
+}
+
+/* Media Queries */
+
+@media (max-width: 750px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero_img{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1258px){
+    .hero_img{
+        width: 70%;
+    }
 }
