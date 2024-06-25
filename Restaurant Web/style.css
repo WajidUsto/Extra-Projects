@@ -8,4 +8,23 @@ html,body{
     font-weight: 300;
     font-family: "Roboto", sans-serif;
 }
+
 /* Navigation */
+
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.1);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
