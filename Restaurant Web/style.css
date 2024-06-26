@@ -69,24 +69,33 @@ button:hover{
 }
 .explore_btn{
     background: #149f39;
+    color: white;
 }
 .explore_btn:hover{
-    background-color: blue;
-    transition: 0.5s ease-in;
+    background-color: rgba(6, 165, 72, 0.911);
+    transition: 0.5s ease-in-out;
+    color: black;
 }
 
 /* Media Queries */
-@media (max-width: 786px) {
+
+@media (max-width: 1006px) {
     .hero{
         flex-direction: column;
     }
-    .hero_img{
-        width: 80%;
-        padding left: 10px;
+    .hero_img img{
+        display: flex;
+        justify-content: center;
+        width: 90%;
     }
     .hero_content{
-        gap: 10px;
-        padding: 20px;
+        padding: 20px 10px;
+    }
+    .hero_content h1{
+        font-size: 35px;
+    }
+    .explore_btn{
+        font-size: 25px;
     }
 }
 
