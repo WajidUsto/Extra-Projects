@@ -70,20 +70,23 @@ button:hover{
 .explore_btn{
     background: #149f39;
 }
+.explore_btn:hover{
+    background-color: blue;
+    transition: 0.5s ease-in;
+}
 
 /* Media Queries */
 
-@media (max-width: 750px){
+@media (max-width: 1363px){
     .hero{
         flex-direction: column;
     }
     .hero_img{
-        width: 80%;
-        margin: 0 auto;
+        width: 60%;
     }
 }
-@media (max-width: 1258px){
+/* @media (max-width: 1258px){
     .hero_img{
         width: 70%;
     }
-}
+} */
