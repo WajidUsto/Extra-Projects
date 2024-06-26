@@ -99,6 +99,12 @@ button:hover{
     border: 1px solid #ccc;
     margin: 20px 0px;
 }
+#tag{
+    background: #149f39;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
 
 /* Media Queries */
 
