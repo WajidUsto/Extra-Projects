@@ -76,7 +76,17 @@ button:hover{
     transition: 0.5s ease-in-out;
     color: black;
 }
-
+.features{
+    margin-top: 100px;
+    display: flex;
+}
+.feature_content{
+    display: flex;
+    gap: 10px;
+}
+h3{
+    display: inline-block;
+}
 /* Media Queries */
 
 @media (max-width: 1006px) {
@@ -101,17 +111,14 @@ button:hover{
         font-size: 25px;
     }
 }
-@media (max-width: 717px) {
+@media (max-width: 717px){
     .hero_content h1{
         font-size: 40px;
     }
-}
-@media (max-width: 717px) {
     .explore_btn{
         font-size: 20px;
     }
 }
-
 
 
 
