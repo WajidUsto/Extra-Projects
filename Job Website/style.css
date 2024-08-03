@@ -5,6 +5,7 @@
 }
 body{
   background-color: #ccc;
+  transition: .5s ease-in-out;
 }
 .container{
   max-width: 600px;
@@ -18,6 +19,8 @@ body{
   box-shadow: 3px 4px 5px slategray;
   margin-top: 50px;
   border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .small_title{
   font-size: 20px;
@@ -43,19 +46,21 @@ input,textarea,select{
   border: 2px solid #ccc;
   padding-bottom: 15px;
   margin-top: 15px;
+  width: 100%;
 }
 .apply_container{
   display: flex;
   justify-content: flex-end;
 }
 button{
-  border: transparent 5px;
   background-color: red;
   color: white;
   border-radius: 5px;
   padding: 10px 15px;
   transition: 0.3s ease-in;
   margin-top: 30px;
+  cursor: pointer;
+  border: 1px solid red;
 }
 #upload{
   border: 2px solid #ccc;
@@ -67,6 +72,7 @@ button:hover{
   background-color: #ccc;
   color: black;
   transition: 0.3s ease-out;
+  border: 1px solid black;
 }
 .textarea_control{
   grid-column: 1 / span 2;
@@ -75,7 +81,7 @@ button:hover{
   width: 100%;
 }
 
-@media (max-width:459){
+@media (max-width:459px){
   .textarea_control{
     grid-column: 1 / span 1
   }
